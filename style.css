@@ -426,13 +426,13 @@ section {
 }
 
 .about-container {
-  height: 80vh;
-  background: #D2394D;
+  height: 83vh;
+  background: #eeeaea;
   position: relative;
 }
 
 .about-container .centered-box {
-  top: 18%;
+  top: 15%;
 }
 
 .centered-box {
@@ -444,15 +444,24 @@ section {
 }
 
 .centered-box h1 {
-  text-transform: capitalize;
-  color: #FFFFFF;
+  text-transform: uppercase;
+  color: #261F1F;
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
+  font-size: 3em;
+  margin: 0;
+}
+.centered-box h3 {
+  color: #D2394D;
+  font-weight: 700;
+  font-family: sans-serif;
+  margin: 0 0 20px 0;
 }
 
 .centered-box .sub-header {
-  color: #FFFFFF;
+  color: #D2394D;
+  margin-bottom: 50px;
 }
 
 .centered-box .main-btn {
@@ -467,14 +476,14 @@ section {
 }
 
 .about-container2 {
-  height: 60vh;
+  height: 70vh;
   width: 100%;
-  background: #eeeaea;
+  background: #D2394D;
   position: relative;
 }
 
 .about-container2 h1 {
-  color: #D2394D;
+  color: #FFFFFF;
   text-transform: none;
 }
 
@@ -483,6 +492,7 @@ section {
   line-height: 1.4em;
   font-family: "Monserrat", sans-serif;
   font-weight: 300;
+  color: #FFFFFF;
 }
 
 .products-container {
