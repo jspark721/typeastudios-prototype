@@ -444,13 +444,13 @@ section {
 }
 
 .centered-box h1 {
-  text-transform: uppercase;
-  color: #261F1F;
   font-family: "Playfair Display", serif;
-  font-weight: 700;
+  font-size: 3.3em;
   letter-spacing: -1px;
-  font-size: 3em;
+  font-weight: 300;
+  color: black;
   margin: 0;
+  text-transform: capitalize;
 }
 .centered-box h3 {
   color: #D2394D;
@@ -485,6 +485,7 @@ section {
 .about-container2 h1 {
   color: #FFFFFF;
   text-transform: none;
+  font-weight: 700;
 }
 
 .about-container2 p {
